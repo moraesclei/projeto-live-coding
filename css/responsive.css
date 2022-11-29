@@ -1,1 +1,7 @@
 /*responsive*/
+/*nessa propriedade ele configura para mobile de até 630pixel*/
+@media (max-width:630px) {
+    .menu-button-container{
+        display: flex;
+    }
+}
