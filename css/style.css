@@ -1,4 +1,51 @@
 /*style*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    list-style: none;
+}
+html,
 body{
-    background-color: lightgray;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    text-rendering: optimizeLegibility; /*propriedade ajuda a fonte ficar legível/clara com telas possuem maior pixelagem */
+    -webkit-font-smoothing: antialised; /*kit da web para deixar a fonte da web mais agravél*/
+}
+a{
+    text-decoration: none; /*retira o underline da palavra*/
+}
+header{
+    background-color: black;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    margin: auto;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: 1.8rem;
+    transition: all 250ms linear 0s;
+}
+header nav ul li a:hover{
+    background: rgba(255,255,255, 0.15);
+}
+header img{
+    height: 30px;
+}
+
+#checkbox-menu{
+    display: none;
 }
