@@ -39,7 +39,7 @@ header nav ul li a{
     padding: 1.8rem;
     transition: all 250ms linear 0s;
 }
-header nav ul li a:hover{
+header nav ul li a:hover{/*aqui ele aplica uma suavidade para os elementos da nav com um cinza ligth*/
     background: rgba(255,255,255, 0.15);
 }
 header img{
